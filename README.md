@@ -25,4 +25,8 @@ attach the custom domain.
 
 ## Note
 
-Do not publish a street address. "Based in California, USA" is intentional.
+- Do not publish a street address.
+- **At GiftPebbly launch day:** add the product back to the page — a card with the
+  app icon and an "Available on the App Store" link (a shipped product with a real
+  store link is far stronger than a lingering "coming soon", which was intentionally
+  omitted pre-launch).

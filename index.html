@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Cierene Studio — Travel companion apps for solo travelers</title>
-  <meta name="description" content="Cierene Studio LLC builds localized, emotionally supportive travel companion applications for solo travelers. Based in California, USA." />
-  <meta property="og:title" content="Cierene Studio" />
-  <meta property="og:description" content="We build localized and emotionally supportive travel companion applications for solo travelers." />
+  <title>Cierene Studio LLC — independent travel-app studio</title>
+  <meta name="description" content="Cierene Studio LLC is an independent studio crafting beautiful, privacy-first travel companion apps. Based in California, USA." />
+  <meta property="og:title" content="Cierene Studio LLC" />
+  <meta property="og:description" content="We craft travel companions that handle the small things, so every journey feels a little lighter." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://cierenestudio.com" />
   <link rel="canonical" href="https://cierenestudio.com" />
@@ -32,10 +32,6 @@
     main{flex:1; display:flex; flex-direction:column; justify-content:center; padding:96px 0 64px}
 
     /* hero */
-    .eyebrow{
-      font-size:13px; letter-spacing:.22em; text-transform:uppercase;
-      color:var(--accent-deep); font-weight:700; margin-bottom:20px;
-    }
     h1{
       font-size:clamp(44px,9vw,86px); line-height:1.02; letter-spacing:-.02em;
       font-weight:800; color:var(--ink); margin-bottom:8px;
@@ -46,41 +42,16 @@
       max-width:34ch;
     }
     .mission b{ color:var(--ink); font-weight:600 }
+    .mission-sub{
+      font-size:clamp(15px,2.1vw,17px); color:var(--muted); margin-top:20px;
+      max-width:52ch; line-height:1.7;
+    }
 
-    /* product card */
-    .products{ margin-top:72px }
+    /* contact */
     .section-label{
       font-size:12px; letter-spacing:.2em; text-transform:uppercase;
       color:var(--muted); font-weight:700; margin-bottom:18px;
     }
-    .card{
-      background:var(--card); border:1px solid var(--line);
-      border-radius:22px; padding:30px 30px 28px;
-      box-shadow:0 24px 50px -28px rgba(51,36,48,.45);
-      display:flex; gap:22px; align-items:flex-start;
-    }
-    .mark{
-      flex:none; width:58px; height:58px; border-radius:18px;
-      background:linear-gradient(155deg,#f6efe1,#e6d4bb);
-      display:flex; align-items:center; justify-content:center;
-      border:1px solid var(--line);
-    }
-    .mark svg{ width:38px; height:38px }
-    .card h2{ font-size:21px; font-weight:800; letter-spacing:-.01em }
-    .card .tag{
-      display:inline-block; font-size:12px; font-weight:700; letter-spacing:.04em;
-      color:var(--accent-deep); background:rgba(217,111,60,.12);
-      padding:3px 10px; border-radius:999px; margin-top:8px;
-    }
-    .card p{ color:var(--ink-soft); font-size:15px; margin-top:12px; max-width:46ch }
-    .card a.more{
-      display:inline-block; margin-top:14px; font-weight:600; font-size:15px;
-      color:var(--accent-deep); text-decoration:none;
-      border-bottom:1.5px solid rgba(192,87,42,.35);
-    }
-    .card a.more:hover{ border-bottom-color:var(--accent-deep) }
-
-    /* contact */
     .contact{ margin-top:64px }
     .contact .section-label{ margin-bottom:10px }
     .contact a{
@@ -98,41 +69,20 @@
 
     @media (max-width:520px){
       main{ padding:72px 0 48px }
-      .card{ flex-direction:column; gap:16px }
     }
   </style>
 </head>
 <body>
   <main>
     <div class="wrap">
-      <p class="eyebrow">Cierene Studio LLC</p>
       <h1>Cierene&nbsp;Studio</h1>
       <p class="legal">Based in California, USA</p>
       <p class="mission">
-        We build <b>localized and emotionally supportive travel companion applications</b> for solo travelers.
+        We craft <b>travel companions</b> that handle the small things, so every journey feels a little lighter.
       </p>
-
-      <section class="products">
-        <p class="section-label">Our apps</p>
-        <div class="card">
-          <div class="mark" aria-hidden="true">
-            <!-- gift + pebbles glyph echo -->
-            <svg viewBox="0 0 32 32" fill="none" stroke="#332430" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
-              <rect x="9" y="15" width="16" height="11" rx="2"/>
-              <line x1="14.5" y1="15" x2="14.5" y2="26"/><line x1="19.5" y1="15" x2="19.5" y2="26"/>
-              <path d="M7 12.5 L15 19" />
-              <circle cx="21" cy="9" r="2.1" fill="#d96f3c" stroke="none"/>
-              <circle cx="25.5" cy="11.5" r="1.7" fill="#9c8190" stroke="none"/>
-            </svg>
-          </div>
-          <div>
-            <h2>GiftPebbly</h2>
-            <span class="tag">Coming soon to the App Store</span>
-            <p>The most beautiful, gift-aware way to track the souvenirs you buy on a trip — for whom, bought yet, within budget. Fully offline; your data never leaves your device.</p>
-            <a class="more" href="https://giftpebbly.com">giftpebbly.com →</a>
-          </div>
-        </div>
-      </section>
+      <p class="mission-sub">
+        An independent studio sweating the details most apps overlook — calm design, thoughtful interactions, and privacy by default. No accounts, no tracking; your journey stays yours.
+      </p>
 
       <section class="contact">
         <p class="section-label">Say hello</p>
@@ -144,7 +94,6 @@
   <footer>
     <div class="wrap">
       <span>© 2026 Cierene Studio LLC</span>
-      <span>Based in California, USA</span>
     </div>
   </footer>
 </body>
